@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+          <title>Web Project</title>
+            <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
+        <link rel="stylesheet" href="style.css"/>
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+  $('#slider').nivoSlider({
+    effect:'random',
+    slices:10,
+    animSpeed:500,
+    pauseTime:2200,
+    startSlide:0, //Set starting Slide (0 index)
+    directionNav:false,
+    directionNavHide:false, //Only show on hover
+    controlNav:false, //1,2,3...
+    controlNavThumbs:false, //Use thumbnails for Control Nav
+    pauseOnHover:true, //Stop animation while hovering
+    manualAdvance:false, //Force manual transitions
+    captionOpacity:0.8, //Universal caption opacity
+    beforeChange: function(){},
+    afterChange: function(){},
+    slideshowEnd: function(){} //Triggers after all slides have been shown
+  });
+});
+</script>
+
+           
+	</head>
+	    <body>
+              <div class="Headersection template clear">
+                   <div class="logo">
+                       <img src="image/iiuc.jpg" alt="IIUC">
+                       <h2>International Islamic University Chittagong</h2>
+                       <p>Combined quality with morality</p>
+                          
+                   </div>
+                   <div class="social">
+                         <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                         <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                         <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                         <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   </div>
+
+             
+
+
+              </div>
+              <div class="Navigationbar template">
+                     <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li> <a href="#">Blog</a>
+						     <ul>
+                                <li><a href="#">ALGORITHM</a></li>
+                                <li><a href="#">DATA STUCTURE</a></li>
+                                <li><a href="#">PROGRAMING</a></li>
+                                <li><a href="#">OTHERS</a></li>
+
+                            </ul>
+						 </li>
+                         <li> <a href="about.html">About</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                         <li><a href="tutorial.html">tutorial</a>
+                               <ul>
+                                <li><a href="#">tutorial 1</a></li>
+                                <li><a href="#">tutorial 2</a></li>
+                                <li><a href="#">tutorial 3</a></li>
+                                <li><a href="#">tutorial 4</a></li>
+                                <li><a href="#">tutorial 5</a></li>
+
+                            </ul>
+                         </li>
+                         <li><a href="#">Reference</a></li>
+
+                     </ul>
+  
+              </div>
+               <div class="slidersection template clear">
+
+                       <div id="slider">
+                       <a href="#"><img src="image/slideshow/01.jpg" alt="nature 1"> </a>
+                       <a href="#"><img src="image/slideshow/02.jpg" alt="nature 2" ></a>
+                       <a href="#"><img src="image/slideshow/03.jpg" alt="nature 3" ></a>
+                       <a href="#"><img src="image/slideshow/04.jpg" alt="nature 4"></a>
+                     </div>
+
+
+              </div>
+              <div class="BodyContent template clear">
+                    <div class="Maincontent clear">
+                       <div class="samepost clear">
+                              <h2>Post are here:</h2>
+                              <img src="image/img.jpg"  lt="Image of kali linux" height= "200px">
+                              <p>Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. </p>
+                                 <div class="readmore clear">
+                                       <a href="post.html">Read more</a>
+
+                                </div>
+                           </div>
+
+                           <div class="samepost clear">
+                              <h2>Post are here:</h2>
+                              <img src="image/img.jpg"  lt="Image of kali linux" height= "200px">
+                              <p>Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. </p>
+                                 <div class="readmore clear">
+                                       <a href="post.html">Read more</a>
+
+                                </div>
+                           </div>
+                           <div class="samepost clear">
+                              <h2>Post are here:</h2>
+                              <img src="image/kali.jpg" alt="Image of kali linux"/>
+                              <p>Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. Just like Windows XP, Windows 7, Windows 8, and Mac OS X, Linux is an operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply – the operating system manages the communication between your software and your hardware. </p>
+                                 <div class="readmore clear">
+                                       <a href="post.html">Read more</a>
+
+                                </div>
+                           </div>
+                  </div> 
+
+                    <div class="Sidecontent clear"> 
+                    	<div class="sidebar clear">
+                    	       <h2>Latest Articale</h2>
+                             <ul>
+                                 <li><a href="#">First post are here</a></li>
+                                 <li> <a href="#">Second post are here</a></li>
+                                 <li> <a href="#">Third post are here</a></li>
+                                 <li><a href="#">Fourth post are here</a></li>
+                             </ul>
+		                       
+						         </div>		
+
+						<div class="sidebar clear">
+                    	       <h2>Popular Articales</h2>
+		                         <div class="popular clear">
+                              <h3>Post title are goes here:</h3>
+                              <img src="image/img.jpg"  lt="Image of kali linux" height= "100px">
+                              <p>Fusce facilisis, orci sit amet mattis sodales, arcu leo egestas urna, ac sodales ipsum libero sit amet enim. Nullam sed libero quis sapien molestie maximus. Nunc quis erat euismod dui .</p>
+                             </div>
+
+                             <div class="popular clear">
+                              <h3>Post title are goes here:</h3>
+                              <img src="image/img.jpg"  lt="Image of kali linux" height= "100px">
+                              <p>Fusce facilisis, orci sit amet mattis sodales, arcu leo egestas urna, ac sodales ipsum libero sit amet enim. Nullam sed libero quis sapien molestie maximus. Nunc quis erat euismod dui .</p>
+                             </div>
+
+                             <div class="popular clear">
+                              <h3>Post title are goes here:</h3>
+                              <img src="image/img.jpg"  lt="Image of kali linux" height= "100px">
+                              <p>Fusce facilisis, orci sit amet mattis sodales, arcu leo egestas urna, ac sodales ipsum libero sit amet enim. Nullam sed libero quis sapien molestie maximus. Nunc quis erat euismod dui .</p>
+                             </div>
+						</div>		
+
+						<div class="sidebar clear">
+                    	       <h2>Same Side bar</h2>
+		                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat lorem eu magna rutrum, eget vestibulum mi accumsan. Vestibulum efficitur placerat orci eget scelerisque. Ut consectetur eu velit a rhoncus.</p> <p>Fusce facilisis, orci sit amet mattis sodales, arcu leo egestas urna, ac sodales ipsum libero sit amet enim. Nullam sed libero quis sapien molestie maximus. Nunc quis erat euismod dui .</p>
+						</div>								 					
+                    </div>
+
+                    
+              </div>
+              <div class="footercontent template clear">
+                    <div class="footermenu clear">
+                      <ul>
+                         <li><a href="#">Home</a></li>
+                         <li> <a href="#">Blog</a></li>
+                         <li> <a href="#">About</a></li>
+                         <li><a href="#">Contact</a></li>
+
+                      </ul>
+                    </div>
+                    <p>&copy;Copyright Kali Linux </p> 
+
+
+              </div>
+            <div class="socialside clear">
+                        <a href="#"><img src="image/social/in.png"/></a>
+                         <a href="#"><img src="image/social/facebook.png"/></a>
+                         <a href="#"><img src="image/social/twitter.jpg"/></a>
+                         <a href="#"><img src="image/social/google.png"></a>
+                  
+            </div>
+              
+	   </body>
+
+</html>
